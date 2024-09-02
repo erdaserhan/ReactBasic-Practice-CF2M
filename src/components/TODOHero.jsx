@@ -1,4 +1,4 @@
-function TODOHero( { todos_completed, total_todos}) {
+export default function TODOHero( { todos_completed, total_todos}) {
     return (
         <section>
             <div>
