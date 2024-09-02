@@ -9,7 +9,9 @@ export default function ClickCounter() {
 
     return (
         <button onClick={handleClick}>
+            <h3>
             You clicked { count } times
+            </h3>            
         </button>
     )
 }
