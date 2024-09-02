@@ -3,12 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import SayHelloProps from './components/SayHelloProps';
 import App from './App';
+import Compteur from './components/compteur';
+import ClickCounter from './components/click';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <ClickCounter />
   </React.StrictMode>
 );
 
