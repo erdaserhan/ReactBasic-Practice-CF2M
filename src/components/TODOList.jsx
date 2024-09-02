@@ -7,5 +7,11 @@ export default function TODOList() {
 }
 
 function Item({ item }) {
-    
+    return (
+        <li id="{item?.id}" className="todo_item">
+            <button className="todo_items_left">
+                
+            </button>
+        </li>
+    );
 }
